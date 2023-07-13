@@ -1,0 +1,47 @@
+.header {
+    width: 100%;
+    max-width: 1300px;
+    display: flow-root;
+    color: white;
+}
+
+.navbar {
+margin: auto;
+max-width: 1300px;
+}
+
+.navbarcontaint {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.navbarul {
+    list-style-type: none;
+    height: 50px;
+    display: flex;
+}
+
+.navbarli {
+    cursor: pointer;
+    width: 33%;
+    text-align: center;
+    margin: auto;
+}
+
+
+.navbarlink{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem; 
+    font-weight: 900;
+}
+
+.navbarlink:hover{
+    color:darkkhaki; 
+}
+
+.main{
+    margin: auto;
+    max-width: 1300px;
+}

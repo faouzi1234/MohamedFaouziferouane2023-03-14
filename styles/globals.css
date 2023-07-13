@@ -1,0 +1,23 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+* {
+margin: 0;
+padding: 0;
+}
+
+body{
+  min-height: 100vh !important;
+  max-width: 1300px;
+  margin: auto;
+  padding: 0;
+  background-image: url("/background.jpg");
+  background-position:top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+}

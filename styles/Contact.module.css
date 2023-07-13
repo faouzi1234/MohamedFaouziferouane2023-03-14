@@ -1,0 +1,67 @@
+.contact{
+    width: 100vw;
+    max-width: 1300px;
+    color: white;
+}
+.title{
+    width: 100%;
+    text-align: center;
+}
+
+.part{
+    margin: auto;
+    max-width: 500px;
+    display: flex;
+}
+
+.formulaire{
+    width: 100%;
+    margin-top: 50px;
+    margin: auto;
+    padding: 15px;
+    background-color: darkkhaki;
+    box-shadow: 15px 15px white;
+}
+
+.contactform{
+    display: block;
+}
+
+.formpart{
+    display: block;
+    width: max-content;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    position: relative;
+}
+
+.formpart label{
+    width: 100%;
+    display: block;
+}
+
+.formpart input{
+    width: 100%;
+    max-width: 500px;
+    display: block;
+}
+
+.formpart textarea{
+    width: 100% !important;
+    height: 200px;
+    max-width: 470px;
+    min-width: 150px;
+    max-height: 300px;
+}
+
+.error{
+    color: red;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.hide{
+    display: none;
+}

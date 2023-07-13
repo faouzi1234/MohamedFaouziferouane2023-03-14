@@ -1,0 +1,61 @@
+.part{
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+}
+
+.Projectback{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    padding: 15px;
+    background-color: darkkhaki;
+    box-shadow: 15px 15px white;
+    display: flex;
+}
+
+.desc{
+    width: 50%;
+    display: flex;
+}
+.imag{
+    width: 50%;
+    display: flex;
+}
+
+@media only screen and (max-width: 760px) {
+    .Projectback{
+
+        display: grid;
+    }
+    .desc{
+        width: 100% !important;
+    }
+    .imag{
+        margin-top: 25px;
+        width: 100% !important;
+    }
+}
+
+.centre{
+    margin: auto;
+}
+
+.title{
+    font-weight: 900;
+    margin: 25px auto;
+}
+
+.imagecontainer{
+   /* position: relative;*/
+   width: auto;
+   height: auto;
+   display: flex;
+}
+
+.imagecontainer img{
+    position: relative !important;
+    width: 100%;
+    margin: auto;
+    max-height: 500px;
+}

@@ -1,0 +1,25 @@
+.about{
+    width: 100vw;
+    max-width: 1300px;
+    color: white;
+}
+.title{
+    width: 100%;
+    text-align: center;
+}
+.partProject{
+    display: flex;
+}
+.projectselect{
+    cursor: pointer;
+    margin: auto;
+    font-size: 700;
+}
+
+.selected{
+    color: darkkhaki;
+}
+
+.projects{
+    margin-top: 50px;
+}

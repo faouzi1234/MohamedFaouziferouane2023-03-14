@@ -1,0 +1,83 @@
+.about{
+    display: flex;
+    margin: 50px 0px;
+}
+.part{
+    width: 50vw;
+    min-height: 500px;
+    display: flex;
+}
+.student{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    padding: 15px;
+    background-color: darkkhaki;
+    box-shadow: 15px 15px white;
+}
+
+.experience{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 15px 15px darkkhaki;
+}
+
+.textcentre{
+    text-align: center;
+    font-weight: 900;
+}
+
+.ecolename{
+    font-weight: 900;
+    margin: 0px 30px;
+}
+
+.ecolepro{
+    font-weight: 600;
+    margin: 0px 60px;
+    margin-top: 25px;
+
+}
+.ecoledate{
+    font-weight: 600;
+    margin: 0px 60px;
+    margin-top: 25px;
+}
+
+.exper{
+    margin: 0px 120px;
+    margin-top: 25px;
+}
+.experli{
+    list-style: square;
+    margin: 20px 0px;
+}
+.experli h3{
+    font-weight: 900;
+}
+
+@media only screen and (max-width: 760px) {
+    .ecolepro{
+        margin: 0px 20px;
+    }
+    .exper{
+        margin: 0px 20px;
+    }
+    .ecoledate{
+        margin: 0px 20px;
+    }
+    .about{
+        display: grid;
+    }
+    .part{
+        width: 100vw;
+        margin: 50px 0px;
+    }
+}
+
+.etude{
+    margin: 50px auto;
+}
